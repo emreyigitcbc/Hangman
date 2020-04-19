@@ -1,7 +1,7 @@
 <?php
 /*
  * Information:
- * Author: EMRE CEBECÝ
+ * Author: EMRE CEBECÄ°
  * Version: v1.3
  * Release Date: 4/19/2020
  * -----------------------
@@ -84,22 +84,22 @@ setFolderName();
 function tr_strtoupper($text)
 {
     $search = array(
-        "ç",
+        "Ã§",
         "i",
-        "ý",
-        "ð",
-        "ö",
-        "þ",
-        "ü"
+        "Ä±",
+        "ÄŸ",
+        "Ã¶",
+        "ÅŸ",
+        "Ã¼"
     );
     $replace = array(
-        "Ç",
-        "Ý",
+        "Ã‡",
+        "Ä°",
         "I",
-        "Ð",
-        "Ö",
-        "Þ",
-        "Ü"
+        "Äž",
+        "Ã–",
+        "Åž",
+        "Ãœ"
     );
     $text = str_replace($search, $replace, $text);
     $text = strtoupper($text);
@@ -109,22 +109,22 @@ function tr_strtoupper($text)
 function tr_strtolower($text)
 {
     $replace = array(
-        "ç",
+        "Ã§",
         "i",
-        "ý",
-        "ð",
-        "ö",
-        "þ",
-        "ü"
+        "Ä±",
+        "ÄŸ",
+        "Ã¶",
+        "ÅŸ",
+        "Ã¼"
     );
     $search = array(
-        "Ç",
-        "Ý",
+        "Ã‡",
+        "Ä°",
         "I",
-        "Ð",
-        "Ö",
-        "Þ",
-        "Ü"
+        "Äž",
+        "Ã–",
+        "Åž",
+        "Ãœ"
     );
     $text = str_replace($search, $replace, $text);
     $text = strtolower($text);
@@ -295,7 +295,7 @@ function getGuess()
 <body onload="<?php echo $_SESSION["onload-scripts"]; ?>">
 	<div id="header">
 		<h1 class="title">HANGMAN</h1>
-		<span>» by Emre Cebeci</span>
+		<span>Â» by Emre Cebeci</span>
 	</div>
 	<div class="clear"></div>
 	<div id="content">
