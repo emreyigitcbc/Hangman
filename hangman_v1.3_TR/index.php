@@ -1,7 +1,7 @@
 <?php
 /*
  * Information:
- * Author: EMRE CEBECÝ
+ * Author: EMRE CEBECÄ°
  * Version: v1.3
  * Release Date: 4/19/2020
  * -----------------------
@@ -84,22 +84,22 @@ setFolderName();
 function tr_strtoupper($text)
 {
     $search = array(
-        "ç",
+        "Ã§",
         "i",
-        "ý",
-        "ð",
-        "ö",
-        "þ",
-        "ü"
+        "Ä±",
+        "ÄŸ",
+        "Ã¶",
+        "ÅŸ",
+        "Ã¼"
     );
     $replace = array(
-        "Ç",
-        "Ý",
+        "Ã‡",
+        "Ä°",
         "I",
-        "Ð",
-        "Ö",
-        "Þ",
-        "Ü"
+        "Äž",
+        "Ã–",
+        "Åž",
+        "Ãœ"
     );
     $text = str_replace($search, $replace, $text);
     $text = strtoupper($text);
@@ -109,22 +109,22 @@ function tr_strtoupper($text)
 function tr_strtolower($text)
 {
     $replace = array(
-        "ç",
+        "Ã§",
         "i",
-        "ý",
-        "ð",
-        "ö",
-        "þ",
-        "ü"
+        "Ä±",
+        "ÄŸ",
+        "Ã¶",
+        "ÅŸ",
+        "Ã¼"
     );
     $search = array(
-        "Ç",
-        "Ý",
+        "Ã‡",
+        "Ä°",
         "I",
-        "Ð",
-        "Ö",
-        "Þ",
-        "Ü"
+        "Äž",
+        "Ã–",
+        "Åž",
+        "Ãœ"
     );
     $text = str_replace($search, $replace, $text);
     $text = strtolower($text);
@@ -170,8 +170,8 @@ function getStatus()
         echo '
     <div id="info">
         <div class="text">
-            <h1><font color="red">ADAM ÖLDÜ!</font></h1>
-            <p>Cevap þuydu: ' . $_SESSION["word"] . '</p>
+            <h1><font color="red">ADAM Ã–LDÃœ!</font></h1>
+            <p>Cevap ÅŸuydu: ' . $_SESSION["word"] . '</p>
 			<button class="info-button" onclick="location.href = \'?p=new\';">Yeni Oyun</button>
 		</div>
 	</div>
@@ -195,7 +195,7 @@ function getStatus()
 // Writes hint.
 function getHint()
 {
-    echo "<span class='hint-title'>Ýpucu:</span> <span class='hint'>" . $_SESSION["hint"] . "</span>";
+    echo "<span class='hint-title'>Ä°pucu:</span> <span class='hint'>" . $_SESSION["hint"] . "</span>";
 }
 
 // Drawing man parts.
@@ -264,29 +264,29 @@ function getButtons()
         'A',
         'B',
         'C',
-        'Ç',
+        'Ã‡',
         'D',
         'E',
         'F',
         'G',
-        'Ð',
+        'Äž',
         'H',
         'I',
-        'Ý',
+        'Ä°',
         'J',
         'K',
         'L',
         'M',
         'N',
         'O',
-        'Ö',
+        'Ã–',
         'P',
         'R',
         'S',
-        'Þ',
+        'Åž',
         'T',
         'U',
-        'Ü',
+        'Ãœ',
         'V',
         'Y',
         'Z'
@@ -325,7 +325,7 @@ function getGuess()
 <body onload="<?php echo $_SESSION["onload-scripts"]; ?>">
 	<div id="header">
 		<h1 class="title">Adam Asmaca</h1>
-		<span>» by Emre Cebeci</span>
+		<span>Â» by Emre Cebeci</span>
 	</div>
 	<div class="clear"></div>
 	<div id="content">
@@ -392,7 +392,7 @@ switch ($_GET["p"]) {
 				<li><a href="https://github.com/emreyigitcbc/HangMan">GitHub Rep.</a></li>
 			</ul>
 		</div>
-		<div class="copy">Yapýmcý: Emre Cebeci, sürüm: 1.3</div>
+		<div class="copy">YapÄ±mcÄ±: Emre Cebeci, sÃ¼rÃ¼m: 1.3</div>
 	</div>
 </body>
 </html>
