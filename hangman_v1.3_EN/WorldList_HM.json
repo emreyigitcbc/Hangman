@@ -1,0 +1,117 @@
+{
+	"WordList": [
+		{
+			"Word": "earth",
+			"Hint": "Planet"
+		},
+		{
+			"Word": "history",
+			"Hint": "Past"
+		},
+		{
+			"Word": "way",
+			"Hint": "Road"
+		},
+		{
+			"Word": "art",
+			"Hint": "Music/Image"
+		},
+		{
+			"Word": "information",
+			"Hint": "Knowladge"
+		},
+		{
+			"Word": "family",
+			"Hint": "Together"
+		},
+		{
+			"Word": "government",
+			"Hint": "Services"
+		},
+		{
+			"Word": "health",
+			"Hint": "Government Service"
+		},
+		{
+			"Word": "system",
+			"Hint": "Something in Order"
+		},
+		{
+			"Word": "computer",
+			"Hint": "You are using now."
+		},
+		{
+			"Word": "meat",
+			"Hint": "Eatable"
+		},
+		{
+			"Word": "year",
+			"Hint": "Something about Sun"
+		},
+		{
+			"Word": "thanks",
+			"Hint": "You say it"
+		},
+		{
+			"Word": "music",
+			"Hint": "Soul's Food"
+		},
+		{
+			"Word": "reading",
+			"Hint": "Book"
+		},
+		{
+			"Word": "method",
+			"Hint": "Solution"
+		},
+		{
+			"Word": "data",
+			"Hint": "JSON thing"
+		},
+		{
+			"Word": "food",
+			"Hint": "Eatable"
+		},
+		{
+			"Word": "understand",
+			"Hint": "Oh, okay."
+		},
+		{
+			"Word": "theory",
+			"Hint": "It might be true."
+		},
+		{
+			"Word": "law",
+			"Hint": "Life"
+		},
+		{
+			"Word": "bird",
+			"Hint": "Cik Cik"
+		},
+		{
+			"Word": "problem",
+			"Hint": "Something not good"
+		},
+		{
+			"Word": "software",
+			"Hint": "I write!"
+		},
+		{
+			"Word": "control",
+			"Hint": "Something ..able"
+		},
+		{
+			"Word": "power",
+			"Hint": "I'M THOR"
+		},
+		{
+			"Word": "economics",
+			"Hint": "Money System"
+		},
+		{
+			"Word": "television",
+			"Hint": "Lightly Mightly Vision"
+		}
+		
+	]
+}
